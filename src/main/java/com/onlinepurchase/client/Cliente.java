@@ -15,6 +15,7 @@ public class Cliente {
     Client client;
     WebTarget webTarget;
 
+    
 
 
 }
