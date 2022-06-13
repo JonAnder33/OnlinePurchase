@@ -3,6 +3,7 @@ package com.onlinepurchase.client.ventanas;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import java.awt.BorderLayout;
 
 public class VentanaProductosTotales {
 
@@ -38,6 +39,7 @@ public class VentanaProductosTotales {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(new BorderLayout(0, 0));
 	}
 
 }
