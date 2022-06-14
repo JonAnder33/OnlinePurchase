@@ -4,7 +4,7 @@ package com.onlinepurchase.server;
  * Hello world!
  *
  */
-public class App 
+public class ServerManager 
 {
     public static void main( String[] args )
     {
