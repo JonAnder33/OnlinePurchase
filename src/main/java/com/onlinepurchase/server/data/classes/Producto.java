@@ -1,5 +1,8 @@
 package com.onlinepurchase.server.data.classes;
 
+import javax.jdo.annotations.PersistenceCapable;
+
+@PersistenceCapable(detachable="true")
 public class Producto {
 	private String nombre;
 	private float precio;
