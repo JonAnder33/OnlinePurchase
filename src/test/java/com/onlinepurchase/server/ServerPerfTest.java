@@ -38,6 +38,7 @@ public class ServerPerfTest {
         // start the server
         server = ServerManager.startServer();
         // create the client
+        
         Client c = ClientBuilder.newClient();
 
         // uncomment the following line if you want to enable
