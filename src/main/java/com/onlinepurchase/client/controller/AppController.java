@@ -12,7 +12,10 @@ public class AppController {
     private Label onlinePurchaseLabel;
 
     @FXML
-    protected void onOnlinePurchaseButtonClick() {App.initRootLayout(getClass().getResource("ProductosWindow.fxml")); }
+    protected void onOnlinePurchaseButtonClick() {
+    	App a1 = new App();
+    	a1.initRootLayout(getClass().getResource("MainWindow.fxml")); 
+    	}
     
  
 }

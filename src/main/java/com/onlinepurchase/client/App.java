@@ -30,7 +30,7 @@ public class App extends Application {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AddressApp");
 
-        initRootLayout(getClass().getResource("MainWindow.fxml"));
+        initRootLayout(getClass().getResource("ProductosWindow.fxml"));
         }
 
 	    /**

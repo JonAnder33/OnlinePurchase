@@ -19,6 +19,7 @@ public class Cliente {
         this.client = ClientBuilder.newClient();
         this.webTarget = client.target(String.format("http://%s:%s/onlinepurchase", hostname, port));
     }
+    
     public boolean addProducto(Producto producto) {
 
         WebTarget productosWebTarget = webTarget.path("/myresource/producto");

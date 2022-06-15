@@ -2,7 +2,24 @@
 
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.onlinepurchase.client.controller.AgregarProductoController">
+   <children>
+      <TextField fx:id="nombre" layoutX="34.0" layoutY="126.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label fx:id="nombreText" layoutX="65.0" layoutY="76.0" text="Introducir nombre" />
+      <Button fx:id="bAgregar" layoutX="260.0" layoutY="296.0" mnemonicParsing="false" onAction="#onAgregarButtonClick" text="Registrarme" />
+      <TextField fx:id="precio" layoutX="372.0" layoutY="126.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label fx:id="precioText" layoutX="396.0" layoutY="76.0" text="Introduzca su precio" />
+      <TextField fx:id="peso" layoutX="214.0" layoutY="230.0" prefHeight="25.0" prefWidth="165.0"/>
+      <Label fx:id="pesoText" layoutX="210.0" layoutY="192.0" text="Selecciona el peso" />
+      <Hyperlink layoutX="23.0" layoutY="14.0" onAction="#onHomeButtonClick" text="Home" />
+   </children>
 </AnchorPane>
+
 
