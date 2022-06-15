@@ -30,9 +30,6 @@ public class AgregarProductoController {
     	System.out.println(nombre.getText() + " registrado correctamente!");
     }
 
-    @FXML
-    void onHomeButtonClick() {
-        App.initRootLayout(getClass().getResource("MainWindow.fxml"));
-    }
+
 
 }
